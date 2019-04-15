@@ -5,10 +5,10 @@
   DTS:CreationName="ADO">
   <DTS:ObjectData>
     <DTS:ConnectionManager
-      DTS:ConnectionString="Data Source=JESUS\NOEXPRESS;User ID=sa;Initial Catalog=4EachADO;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      DTS:ConnectionString="Data Source=LAPTOP-637HAK9E\SQLSERVER;User ID=sa;Initial Catalog=4EachADO;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUem+SZzSIUaSQJAsCSsYGwAAAAACAAAAAAAQZgAAAAEAACAAAACN2OCJ6XEBD9YSDg8L2RroyzSDdqSJ3WORMtLMmzhHmQAAAAAOgAAAAAIAACAAAABtG7bUBbKMx/99WiT1KykVesbZ4n7JAOV/bKgMZbzGHHAAAACI4jQwU7IEKFDeLEqqjfTyqtCPMdogUlNevkmgj1msqSHhXSxf6LerheDuq6ksEqwiRePsK+pH4xjf5HzzqrDFWkccTt5uavdUtyewNKdMpmjxVgQMMsksv62AOgqRwEZYSU7S8Hn6R9LaX0ftfUnjQAAAAHuUAoHGZxsI7y5qclvLttjw/vPiHI3HbE2Oij2N8UIDyse28dSg9ptkf/Deg8RBxELivK702LQcra4C4iGnIZg=</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAACAAAAAAAQZgAAAAEAACAAAABpqFWg1oFWm26lXOikiVAPIYc7Akim2d7pp1s+hMTg1wAAAAAOgAAAAAIAACAAAAD7e1X1RUhtfWGZw72IRxP0zVqSbHrLan4eQKNR+O6GCHAAAADp1ylTom8TYDtRdS+u9D/zWhwU1+1oRQPWTslryOeAYfXvGFeKk+mTyEcq7rkvcrQjVqqZALZSd7nGh15ECgVfEySdLAVmOyzty0HVOuSQKE5EoMZBE2G9jUfYlJQG/7Vhm0hU8L4pEN8Rq05IVpb4QAAAAAhXB9/ytXHR+o6G5VFHUYncqvw4yOG/yvs81AIJSGzrbnCI7l+w7Hx8WlRgB257VOb+bYl0vpDGkwhfFy/UdMU=</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
