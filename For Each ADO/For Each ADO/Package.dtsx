@@ -11,11 +11,121 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="51"
-  DTS:VersionGUID="{8E8F3CF3-5E7B-4C75-AE4D-6F930C817129}">
+  DTS:VersionBuild="66"
+  DTS:VersionGUID="{24AE7649-50C6-4D8A-BFF8-F384DB2D6B77}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Archivo2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{9353A90A-4106-4D15-8F2A-3818807139AB}"
+      DTS:ObjectName="Archivo2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\steve\Desktop\archivos-pregunta-2\archivo-2-pregunta2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BusinessEntityID"
+              DTS:DTSID="{A6AF1F4B-FCB5-4AB8-BE55-7C8DE00D79EE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{48D6A6B2-98D9-4091-BFD9-13019830D24D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{15B8476A-7002-4171-887D-A436FE8449DD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobTitle"
+              DTS:DTSID="{DF4C4291-E0B5-41CB-827A-3B43CC733855}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{F8BCD2AE-CDD8-4B31-93CE-07D36667DA2D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{DCFEA0D8-A8F6-4975-AA5B-2C6867E222B2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{0C253E21-1EC6-4759-AB37-942A6564502C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateYear"
+              DTS:DTSID="{4B282688-CE2A-4003-AAD3-70F9EBF63B2A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateDay"
+              DTS:DTSID="{92F5BE08-9D3E-4125-9A65-ED52845DDB6F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateMonth"
+              DTS:DTSID="{79D02353-E73C-46B3-9524-0AFA7B4DCA37}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Archivo6]"
       DTS:CreationName="FLATFILE"
@@ -347,6 +457,226 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 2]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{C388A3C6-6365-4734-9990-AFB70FEFACF7}"
+      DTS:ObjectName="Flat File Connection Manager 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\steve\Desktop\archivos-pregunta-2\archivo-7-pregunta2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BusinessEntityID"
+              DTS:DTSID="{4760FEBB-EB4A-4BAF-8BE5-D360D0D8B2BF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{D384D63A-94E7-4A52-A03C-1F9B883D1A3F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{84C46BA5-58FD-4363-A6DB-719B5087D025}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobTitle"
+              DTS:DTSID="{13AFC603-F02E-4A06-82E7-D57509655B18}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{15E00B04-E80A-4EE9-B7A7-468E8698D828}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{2FF73325-EB1D-4F78-B027-972DCD4454A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{36F1D7BC-AAF5-4B4F-832A-93FCC47D81AE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateYear"
+              DTS:DTSID="{FED79468-A7B6-4856-A96F-73F1F76B9C7B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateDay"
+              DTS:DTSID="{1CFEB00C-27B7-448E-B0BA-80CB31F95666}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateMonth"
+              DTS:DTSID="{7FDECD66-5B3B-43AE-B239-7F05B3BF0EAA}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 3]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{3533B99A-2821-4CCD-8FD8-FBD0FF51FB99}"
+      DTS:ObjectName="Flat File Connection Manager 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\steve\Desktop\archivos-pregunta-2\archivo-4-pregunta2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BusinessEntityID"
+              DTS:DTSID="{92D209E5-21C8-4878-89D9-175A32E09D56}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{90F4E183-A23D-4D61-BC6E-BC0A8425F625}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{F3FBF328-953A-4A10-BC4A-0D0E2B9B1006}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobTitle"
+              DTS:DTSID="{48F0DF54-F7F4-467B-9BCF-169A4041937D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{A7BA8911-4A26-46E6-8215-6A316480FF82}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{018B9539-4893-4DB0-ABE2-10684036D450}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{FA90FFAC-829E-414C-8F75-C0138DEE2789}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateYear"
+              DTS:DTSID="{2F043803-9414-4839-AE1E-C892FF812B19}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateDay"
+              DTS:DTSID="{4EE0FDB0-5869-468E-B302-B5DD4703535B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateMonth"
+              DTS:DTSID="{776402BF-0AE2-491B-A30D-28103A9F32A2}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[JESUS\NOEXPRESS.4EachADO.sa]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{6DD3097A-CEBB-4BC5-AC22-047EDA3FDB48}"
@@ -367,7 +697,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAVaMXHihRv6/MebY/yp8+p0rg7XkL/wLS26lamovzfHgAAAAAOgAAAAAIAACAAAAA5rYhdFxc6eH72SmZWs/3WuXq+JrQltJZH9Mi7dP0W2hAAAAC5LnhHlrk+pwd0Fx3qIJvaQAAAABUQ421EU4VOKl8/dx4MnzE9WKKIVkHAzrDwkSUXxXnqnCYFImsAe6DVePKGgznCbQILZMWo5Kv9kl0a9KnG+9w</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADDh9rE6JC6edeZ0EaDQdv3oKUZR12b7m4LE0JPctY0GAAAAAAOgAAAAAIAACAAAADsXKwYB4fdOyVC7w8OFV/7R93obhFbYh9gbiIuPy02JBAAAABeHELdXzIszTmiOa2OQ24vQAAAAFkLApKlTnMCNNBQdBSvklhheNSG6MIDXbZFxKnlcLNA4DfNua5dudcd94eBqVGNqwe4P3rW51GiijlB0Q/BoSQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -382,7 +712,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADxpKjNe+GULlmrz29EaAzq6ccXT2B1PeSCH6PJWDzthwAAAAAOgAAAAAIAACAAAAAmi2WJrK3NIFHlyOqNM322E2p8+646vT5x0wS4NSmXERAAAACFXEAk1elE/1+gQ6JQ9SvDQAAAAAc5msBx/xeWLDBx2+ypEDvtvL/lqcqpzb097j0kN0zChxWVSyJhCDMmyMr2EARTvGXG0KXoNGX7pITAJChqzlk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAQNQSJZtp2VYqbOmR+iJUDPEEN5V57zqBPqpmlWITf9wAAAAAOgAAAAAIAACAAAACiwqCKjApnRnOPU1pVY9H4M6fsVClE9go8eRsnGAJIzRAAAAAqwHT79RkhKKCk3t1huhYRQAAAAC7J933N//Zq3g3nIbvQR5i4TfO1cELAy+PP0ZBFjkx/BDokDUKeLTVkrnmJImCwW0nR9RYforcbgr18Xe+Us58</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -397,7 +727,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAASdLQ5jg/I1l1PSMJL0Eo4q48QA2H2cuxeQJd1MsH52gAAAAAOgAAAAAIAACAAAABjqTlDmvGLhHS9+WVC8Iy8/jVaNiot590RwAFaxzhchxAAAADrurwnBna3CF1IRLlJNwrEQAAAAI00KLIpduDGY7rBVM6vJBrR7PRR1fR84+VV6frGtpc7W1yVnDSDfF3l5vGd4FRxhXz3Sn/ze7K28XY5DesKdFk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC0jSzRlSGYNwsLaa0GUpf4ObtTV7HLnppQJ3yoya7MbQAAAAAOgAAAAAIAACAAAAAfj2kEx5EVT5FWJbB9dgCeLqjg/YdlVnjKafJ7MVigzhAAAAAEe1mXcJmurSVBiLHr0btcQAAAAAsYy5KL0fu8zMebJjL680Nihu3OrOd5uJt3jYqQi/fepcRIAkEgWCS1InQ/hRfSd7qe5I7jnYFNLjc0aOgB7GQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -412,7 +742,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnrhp6jWv9msWblGgybPhASAz2+k/7ZB/2kmiKhr6YyQAAAAAOgAAAAAIAACAAAACGMGlea0ZoXPnrmkfPStFreGpMcdVg1mzZa3t4pCqaTRAAAABNQBbHpXudICvAAtn4+pWuQAAAADrTmM/+2XW31uzy7R7Xul/z9Z/rE6ho/eN0gBq3DVKtp6Ny17DIkUZjpAIOtRSuPLwoiM1WVEw1s2zCgQVG5Ow</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACuKLrF7kjRf5P7T7zYnRL7d5pZppDq4Qi0++YCA+xGRQAAAAAOgAAAAAIAACAAAABVD25ZWu/NhOidcevFI3qlj7zfAMHd3HZZVPE8Y08LSBAAAAANhHHVe2hMuF92A1rnRBpBQAAAAKZEpAUwOMWx8rYVhTA2Ee++KH6A3ExtOr5LDLCgD6v8PrNvKBGCtloor6EhsE6w6foSnT2ddOxVDY7iyQnWMgg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -427,7 +757,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbkIv9aYzqXgkXf4rN6gYSDg1pBp2FP5u/zISaNBvBFwAAAAAOgAAAAAIAACAAAAAcsR9N6xsYFN4ofP5f+IirjjZ4UuHdWN3a0W45IxGMuhAAAACHAI8YZUvQCUZ8wA5as4aiQAAAABOY6ZfbqntjCjcss23jc9YXJh6gNbQzUotZHWh98lLhbSRAgmZ7nteif6bT5Fl4gfMLLY9lphnaz/ySn4pYmPI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC1KCXJRPApBazkwwoGgm+MPqkblVO0BXackARj1Esx6wAAAAAOgAAAAAIAACAAAAAjR9ZSQO2IJtJRJ69cEEa79F5nTFU/aahbeZJFyTrNoBAAAADbd8Z90XIoQLJh1loZ36DBQAAAAMz6doPPrXg02Ut298CE3HpcTcc4s9bdfK96Z+g6nKrDaW59Dgtz3Rc2JfznhnnIPrmIozXulpFY3pMnO+i8xJg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -552,7 +882,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="ArchivoPorProcesar">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Archivos a cargar\archivos-#-pregunta-2\\</DTS:VariableValue>
+        DTS:DataType="8">C:\Archivos a cargar\archivos-pregunta-2\\</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -598,7 +928,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="miRutaDeUbicacionDeArchivos">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Archivos a cargar\archivos-#-pregunta-2</DTS:VariableValue>
+        DTS:DataType="8">C:\Archivos a cargar\archivos-pregunta-2</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1011,10 +1341,10 @@ namespace ST_56f94d467cbc455a8cc1488f9c026c57
         /// </summary>
 		public void Main()
 		{
-            // TODO: Add your code here
-            string elMensaje = "Hello world!";
+            
+           // string elMensaje = "Hello world!";
 
-            MessageBox.Show(elMensaje);
+            //MessageBox.Show(elMensaje);
 
             Dts.TaskResult = (int)ScriptResults.Success;
 		}
@@ -1043,7 +1373,7 @@ namespace ST_56f94d467cbc455a8cc1488f9c026c57
     <msb:CodeName>ST_56f94d467cbc455a8cc1488f9c026c57</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>ST_56f94d467cbc455a8cc1488f9c026c57</msb:DisplayName>
-    <msb:ProjectId>{18E14B5C-0731-4092-BFB6-4D5A243C339C}</msb:ProjectId>
+    <msb:ProjectId>{FD8FA3B9-8B4A-42A6-B65D-F43F11449081}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="ST_56f94d467cbc455a8cc1488f9c026c57.csproj" />
@@ -1165,103 +1495,103 @@ namespace ST_56f94d467cbc455a8cc1488f9c026c57.Properties {
           <BinaryItem
             Name="ST_56f94d467cbc455a8cc1488f9c026c57.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABVztVwAAAAAAAAAAOAAIiALATAAAA4AAAAIAAAAAAAADi0A
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAPAWtlwAAAAAAAAAAOAAIiALATAAAA4AAAAIAAAAAAAAiiwA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAALwsAABPAAAAAEAAAIgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAADgsAABPAAAAAEAAAJQEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAFA0AAAAgAAAADgAAAAIA
-AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAIgEAAAAQAAAAAYAAAAQAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAFgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAADw
-LAAAAAAAAEgAAAACAAUA0CAAADQLAAABAAAAAAAAAAQsAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGJyAQAAcCgQAAAKJgIoEQAAChZvEgAACioeAigTAAAKKh4C
-KBQAAAoqrn4BAAAELR5yGwAAcNADAAACKBUAAApvFgAACnMXAAAKgAEAAAR+AQAABCoafgIAAAQq
-HgKAAgAABCoafgMAAAQqHgIoGAAACioucwgAAAaAAwAABCoAQlNKQgEAAQAAAAAADAAAAHY0LjAu
-MzAzMTkAAAAABQBsAAAApAMAACN+AAAQBAAAHAUAACNTdHJpbmdzAAAAACwJAACQAAAAI1VTALwJ
-AAAQAAAAI0dVSUQAAADMCQAAaAEAACNCbG9iAAAAAAAAAAIAAAFXHaABCQMAAAD6ATMAFgAAAQAA
-AB0AAAAFAAAABgAAAAkAAAABAAAAGAAAAAIAAAAQAAAAAgAAAAMAAAAEAAAAAQAAAAQAAAABAAAA
-AQAAAAAAGgMBAAAAAAAGAN0B4QMGAGwC4QMGACkBzgMPAFUEAAAGAFYBjwMGAMABjwMGAKEBjwMG
-AFMCjwMGAP0BjwMGABYCjwMGAG0BjwMGAIgBkAIKADECyQIKAKgAyQIGAEkDQgMGAAwBzgMGAM8E
-QgMGALEDAQQGAKEDegMOANwABAMOAD0BBAMOAMQAZQMGAPEA4QMSAAMFnAQSAOIEnAQKAPICyQIG
-AHMAQgMGAE8AQgMGABIFjwMAAAAAJQAAAAAAAQABAAEAEABaAwEAOQABAAEAAAAQAAgEZARFAAEA
-AwAAARAAkwRkBFkAAwAHAAMBAADBBAAAPQAEAAoAEQBOA1UAEQCYAFkAEQA/AF0ABgYuAGEAVoCx
-BGQAVoB4AGQAUCAAAAAAhgBgAwYAAQBpIAAAAACGGMEDBgABAHEgAAAAAIMYwQMGAAEAeSAAAAAA
-kwitA2gAAQClIAAAAACTCIAAbQABAKwgAAAAAJMIjAByAAEAtCAAAAAAlgjWBHgAAgC7IAAAAACG
-GMEDBgACAMMgAAAAAJEYxwN9AAIAAAABAIoCCQDBAwEAEQDBAwYAGQDBAwoAKQDBAxAAMQDBAxAA
-OQDBAxAAQQDBAxAASQDBAxAAUQDBAxAAWQDBAxAAYQDBAxAAaQDBAwYAgQDBAwYAqQDBAxUAuQDB
-AwYAwQD+BBsAcQC5BCEA0QDvBAEAcQDBAwYAiQDBAwYA2QBhACYA2QAOBS0AkQDBAzIAsQDBAwYA
-CAAUAEsACAAYAFAAKQBzALgALgALAJAALgATAJkALgAbALgALgAjAMEALgArAOoALgAzAOoALgA7
-APAALgBDAMEALgBLAP0ALgBTAOoALgBbABsBQwBjAFAASQBzALgAYQB7AFAAYwBrAFAAAwABAAQA
-AwAAALEDgQAAAKAAhgAAANoEiwACAAQAAwACAAUABQABAAYABQACAAcABwAEgAAAAQAAAIUb2gEA
-AAAAAAABAAAABAAAAAAAAAAAAAAAOQA2AAAAAAAOAAAAAAAAAAAAAABCAKoCAAAAAAQAAAAAAAAA
-AAAAADkAQgMAAAAABAAAAAAAAAAAAAAAOQCcBAAAAAAAAAAAAQAAABIEAAAFAAIAAAAAU1RfNTZm
-OTRkNDY3Y2JjNDU1YThjYzE0ODhmOWMwMjZjNTcAPE1vZHVsZT4AdmFsdWVfXwBtc2NvcmxpYgBk
-ZWZhdWx0SW5zdGFuY2UAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5kbGUAVHlwZQBG
-YWlsdXJlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBWU1RBUlRTY3Jp
-cHRPYmplY3RNb2RlbEJhc2UAQXBwbGljYXRpb25TZXR0aW5nc0Jhc2UARWRpdG9yQnJvd3NhYmxl
-U3RhdGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2VyQ29kZUF0dHJp
-YnV0ZQBEZWJ1Z2dhYmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0ZQBBc3NlbWJs
-eVRpdGxlQXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdldEZyYW1ld29y
-a0F0dHJpYnV0ZQBBc3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1ibHlEZXNjcmlw
-dGlvbkF0dHJpYnV0ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFzc2VtYmx5UHJv
-ZHVjdEF0dHJpYnV0ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2NyaXB0VGFza0Vu
-dHJ5UG9pbnRBdHRyaWJ1dGUAQXNzZW1ibHlDb21wYW55QXR0cmlidXRlAFJ1bnRpbWVDb21wYXRp
-YmlsaXR5QXR0cmlidXRlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcATWljcm9zb2Z0
-LlNxbFNlcnZlci5TY3JpcHRUYXNrAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlRhc2tzLlNjcmlw
-dFRhc2sAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFNUXzU2Zjk0ZDQ2
-N2NiYzQ1NWE4Y2MxNDg4ZjljMDI2YzU3LmRsbABTeXN0ZW0ARW51bQByZXNvdXJjZU1hbgBTY3Jp
-cHRNYWluAFN5c3RlbS5Db25maWd1cmF0aW9uAFN5c3RlbS5HbG9iYWxpemF0aW9uAFN5c3RlbS5S
-ZWZsZWN0aW9uAEN1bHR1cmVJbmZvAGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5
-c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5S
-ZXNvdXJjZXMAU1RfNTZmOTRkNDY3Y2JjNDU1YThjYzE0ODhmOWMwMjZjNTcuUHJvcGVydGllcy5S
-ZXNvdXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNUXzU2Zjk0ZDQ2N2NiYzQ1NWE4Y2Mx
-NDg4ZjljMDI2YzU3LlByb3BlcnRpZXMAU2V0dGluZ3MAU3lzdGVtLldpbmRvd3MuRm9ybXMAU3Vj
-Y2VzcwBnZXRfRHRzAFNjcmlwdFJlc3VsdHMAT2JqZWN0AGdldF9EZWZhdWx0AERpYWxvZ1Jlc3Vs
-dABzZXRfVGFza1Jlc3VsdABTaG93AE1lc3NhZ2VCb3gAZ2V0X0Fzc2VtYmx5AAAAGUgAZQBsAGwA
-bwAgAHcAbwByAGwAZAAhAABxUwBUAF8ANQA2AGYAOQA0AGQANAA2ADcAYwBiAGMANAA1ADUAYQA4
-AGMAYwAxADQAOAA4AGYAOQBjADAAMgA2AGMANQA3AC4AUAByAG8AcABlAHIAdABpAGUAcwAuAFIA
-ZQBzAG8AdQByAGMAZQBzAAAAAADu2HswlJggSpJfzArDv2kmAAQgAQEIAyAAAQUgAQEREQQgAQEO
-BSABARFRBQABEWUOBCAAEmkGAAESbRFxBCAAEnUGIAIBDhJ1CLd6XFYZNOCJCImEXc2AgMyRBAAA
-AAAEAQAAAAMGEkkDBhJNAwYSEAIGCAMGERQEAAASSQQAABJNBQABARJNBAAAEhADAAABBAgAEkkE
-CAASTQQIABIQCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAA
-ACgBACNTVF81NmY5NGQ0NjdjYmM0NTVhOGNjMTQ4OGY5YzAyNmM1NwAABQEAAAAADAEAB0hQIElu
-Yy4AAB0BABhDb3B5cmlnaHQgQCBIUCBJbmMuIDIwMTkAAEkBABouTkVURnJhbWV3b3JrLFZlcnNp
-b249djQuNQEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC41AAAAtAAA
-AM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwg
-VmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2
-MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQ
-QURQQURQtAAAAOQsAAAAAAAAAAAAAP4sAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwLAAAAAAA
-AAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAkAwAAAAgAAAADgAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAJQEAAAAQAAAAAYAAAAQAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAFgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAABs
+LAAAAAAAAEgAAAACAAUAxCAAALwKAAABAAAAAAAAAIArAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAADYCKBAAAAoWbxEAAAoqHgIoEgAACioeAigTAAAKKq5+AQAA
+BC0ecgEAAHDQAwAAAigUAAAKbxUAAApzFgAACoABAAAEfgEAAAQqGn4CAAAEKh4CgAIAAAQqGn4D
+AAAEKh4CKBcAAAoqLnMIAAAGgAMAAAQqQlNKQgEAAQAAAAAADAAAAHY0LjAuMzAzMTkAAAAABQBs
+AAAAgAMAACN+AADsAwAA7AQAACNTdHJpbmdzAAAAANgIAAB0AAAAI1VTAEwJAAAQAAAAI0dVSUQA
+AABcCQAAYAEAACNCbG9iAAAAAAAAAAIAAAFXHaABCQMAAAD6ATMAFgAAAQAAABsAAAAFAAAABgAA
+AAkAAAABAAAAFwAAAAIAAAAQAAAAAgAAAAMAAAAEAAAAAQAAAAMAAAABAAAAAQAAAAAAGgMBAAAA
+AAAGAN0B4QMGAGwC4QMGACkBzgMPAFUEAAAGAFYBjwMGAMABjwMGAKEBjwMGAFMCjwMGAP0BjwMG
+ABYCjwMGAG0BjwMGAIgBkAIKADECyQIKAKgAyQIGAEkDQgMGAAwBzgMGALoEQgMGALEDAQQGAKED
+egMOANwABAMOAD0BBAMOAMQAZQMGAPEA4QMKAPICyQIGAHMAQgMGAE8AQgMGAOAEjwMAAAAAJQAA
+AAAAAQABAAEAEABaAwEAOQABAAEAAAAQAAgEZARFAAEAAwAAARAAkwRkBFkAAwAHAAMBAACsBAAA
+PQAEAAoAEQBOA08AEQCYAFMAEQA/AFcABgYuAFsAVoCcBF4AVoB4AF4AUCAAAAAAhgBgAwYAAQBe
+IAAAAACGGMEDBgABAGYgAAAAAIMYwQMGAAEAbiAAAAAAkwitA2IAAQCaIAAAAACTCIAAZwABAKEg
+AAAAAJMIjABsAAEAqSAAAAAAlgjBBHIAAgCwIAAAAACGGMEDBgACALggAAAAAJEYxwN3AAIAAAAB
+AIoCCQDBAwEAEQDBAwYAGQDBAwoAKQDBAxAAMQDBAxAAOQDBAxAAQQDBAxAASQDBAxAAUQDBAxAA
+WQDBAxAAYQDBAxAAaQDBAwYAgQDBAwYAqQDBAxUAuQDBAwYAcQCkBBsAwQDNBAEAcQDBAwYAiQDB
+AwYAyQBhACAAyQDcBCcAkQDBAywAsQDBAwYACAAUAEUACAAYAEoAKQBzALIALgALAIoALgATAJMA
+LgAbALIALgAjALsALgArAOQALgAzAOQALgA7AOoALgBDALsALgBLAPcALgBTAOQALgBbABUBQwBj
+AEoASQBzALIAYQB7AEoAYwBrAEoAAwABAAQAAwAAALEDewAAAKAAgAAAAMUEhQACAAQAAwACAAUA
+BQABAAYABQACAAcABwAEgAAAAQAAAIUbx1MAAAAAAAABAAAABAAAAAAAAAAAAAAAMwA2AAAAAAAO
+AAAAAAAAAAAAAAA8AKoCAAAAAAQAAAAAAAAAAAAAADMAQgMAAAAAAAAAAAEAAAASBAAABQACAAAA
+AAAAU1RfNTZmOTRkNDY3Y2JjNDU1YThjYzE0ODhmOWMwMjZjNTcAPE1vZHVsZT4AdmFsdWVfXwBt
+c2NvcmxpYgBkZWZhdWx0SW5zdGFuY2UAUnVudGltZVR5cGVIYW5kbGUAR2V0VHlwZUZyb21IYW5k
+bGUAVHlwZQBGYWlsdXJlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBW
+U1RBUlRTY3JpcHRPYmplY3RNb2RlbEJhc2UAQXBwbGljYXRpb25TZXR0aW5nc0Jhc2UARWRpdG9y
+QnJvd3NhYmxlU3RhdGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25Vc2Vy
+Q29kZUF0dHJpYnV0ZQBEZWJ1Z2dhYmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJpYnV0
+ZQBBc3NlbWJseVRpdGxlQXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRhcmdl
+dEZyYW1ld29ya0F0dHJpYnV0ZQBBc3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNzZW1i
+bHlEZXNjcmlwdGlvbkF0dHJpYnV0ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRlAEFz
+c2VtYmx5UHJvZHVjdEF0dHJpYnV0ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lTU2Ny
+aXB0VGFza0VudHJ5UG9pbnRBdHRyaWJ1dGUAQXNzZW1ibHlDb21wYW55QXR0cmlidXRlAFJ1bnRp
+bWVDb21wYXRpYmlsaXR5QXR0cmlidXRlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcA
+TWljcm9zb2Z0LlNxbFNlcnZlci5TY3JpcHRUYXNrAE1pY3Jvc29mdC5TcWxTZXJ2ZXIuRHRzLlRh
+c2tzLlNjcmlwdFRhc2sAU2NyaXB0T2JqZWN0TW9kZWwAU3lzdGVtLkNvbXBvbmVudE1vZGVsAFNU
+XzU2Zjk0ZDQ2N2NiYzQ1NWE4Y2MxNDg4ZjljMDI2YzU3LmRsbABTeXN0ZW0ARW51bQByZXNvdXJj
+ZU1hbgBTY3JpcHRNYWluAFN5c3RlbS5Db25maWd1cmF0aW9uAFN5c3RlbS5HbG9iYWxpemF0aW9u
+AFN5c3RlbS5SZWZsZWN0aW9uAEN1bHR1cmVJbmZvAGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IA
+LmNjdG9yAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2Vz
+AFN5c3RlbS5SZXNvdXJjZXMAU1RfNTZmOTRkNDY3Y2JjNDU1YThjYzE0ODhmOWMwMjZjNTcuUHJv
+cGVydGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNUXzU2Zjk0ZDQ2N2Ni
+YzQ1NWE4Y2MxNDg4ZjljMDI2YzU3LlByb3BlcnRpZXMAU2V0dGluZ3MAU3VjY2VzcwBnZXRfRHRz
+AFNjcmlwdFJlc3VsdHMAT2JqZWN0AGdldF9EZWZhdWx0AHNldF9UYXNrUmVzdWx0AGdldF9Bc3Nl
+bWJseQAAAAAAcVMAVABfADUANgBmADkANABkADQANgA3AGMAYgBjADQANQA1AGEAOABjAGMAMQA0
+ADgAOABmADkAYwAwADIANgBjADUANwAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUAcwBvAHUA
+cgBjAGUAcwAAAJGkuibWA4FMh2b+dceuqn4ABCABAQgDIAABBSABARERBCABAQ4FIAEBEVEEIAAS
+YQYAARJlEWkEIAASbQYgAgEOEm0It3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSSQMGEk0D
+BhIQAgYIAwYRFAQAABJJBAAAEk0FAAEBEk0EAAASEAMAAAEECAASSQQIABJNBAgAEhAIAQAIAAAA
+AAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUXzU2Zjk0ZDQ2
+N2NiYzQ1NWE4Y2MxNDg4ZjljMDI2YzU3AAAFAQAAAAAMAQAHSFAgSW5jLgAAHQEAGENvcHlyaWdo
+dCBAIEhQIEluYy4gMjAxOQAASQEAGi5ORVRGcmFtZXdvcmssVmVyc2lvbj12NC41AQBUDhRGcmFt
+ZXdvcmtEaXNwbGF5TmFtZRIuTkVUIEZyYW1ld29yayA0LjUAtAAAAM7K774BAAAAkQAAAGxTeXN0
+ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBD
+dWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJl
+c291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAGAsAAAAAAAA
+AAAAAHosAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsLAAAAAAAAAAAAAAAAF9Db3JEbGxNYWlu
+AG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAA
-AAAASAAAAFhAAAAqBAAAAAAAAAAAAAAqBDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYA
-TwAAAAAAvQTv/gAAAQAAAAEA2gGFGwAAAQDaAYUbPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAA
+AAAASAAAAFhAAAA2BAAAAAAAAAAAAAA2BDQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYA
+TwAAAAAAvQTv/gAAAQAAAAEAx1OFGwAAAQDHU4UbPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAA
 AEQAAAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkA
-bwBuAAAAAAAAALAEigMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAZgMAAAEAMAAw
+bwBuAAAAAAAAALAElgMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAcgMAAAEAMAAw
 ADAAMAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAADAACAABAEMAbwBtAHAA
 YQBuAHkATgBhAG0AZQAAAAAASABQACAASQBuAGMALgAAAHAAJAABAEYAaQBsAGUARABlAHMAYwBy
 AGkAcAB0AGkAbwBuAAAAAABTAFQAXwA1ADYAZgA5ADQAZAA0ADYANwBjAGIAYwA0ADUANQBhADgA
-YwBjADEANAA4ADgAZgA5AGMAMAAyADYAYwA1ADcAAAA6AA0AAQBGAGkAbABlAFYAZQByAHMAaQBv
-AG4AAAAAADEALgAwAC4ANwAwADQANQAuADQANwA0AAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwA
-TgBhAG0AZQAAAFMAVABfADUANgBmADkANABkADQANgA3AGMAYgBjADQANQA1AGEAOABjAGMAMQA0
-ADgAOABmADkAYwAwADIANgBjADUANwAuAGQAbABsAAAAVgAZAAEATABlAGcAYQBsAEMAbwBwAHkA
-cgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBoAHQAIABAACAASABQACAASQBuAGMALgAgADIAMAAx
-ADkAAAAAACoAAQABAEwAZQBnAGEAbABUAHIAYQBkAGUAbQBhAHIAawBzAAAAAAAAAAAAeAAoAAEA
-TwByAGkAZwBpAG4AYQBsAEYAaQBsAGUAbgBhAG0AZQAAAFMAVABfADUANgBmADkANABkADQANgA3
-AGMAYgBjADQANQA1AGEAOABjAGMAMQA0ADgAOABmADkAYwAwADIANgBjADUANwAuAGQAbABsAAAA
-aAAkAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAAAABTAFQAXwA1ADYAZgA5ADQAZAA0ADYANwBj
-AGIAYwA0ADUANQBhADgAYwBjADEANAA4ADgAZgA5AGMAMAAyADYAYwA1ADcAAAA+AA0AAQBQAHIA
-bwBkAHUAYwB0AFYAZQByAHMAaQBvAG4AAAAxAC4AMAAuADcAMAA0ADUALgA0ADcANAAAAAAAQgAN
-AAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4ANwAwADQANQAuADQA
-NwA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+YwBjADEANAA4ADgAZgA5AGMAMAAyADYAYwA1ADcAAAA+AA8AAQBGAGkAbABlAFYAZQByAHMAaQBv
+AG4AAAAAADEALgAwAC4ANwAwADQANQAuADIAMQA0ADQANwAAAAAAcAAoAAEASQBuAHQAZQByAG4A
+YQBsAE4AYQBtAGUAAABTAFQAXwA1ADYAZgA5ADQAZAA0ADYANwBjAGIAYwA0ADUANQBhADgAYwBj
+ADEANAA4ADgAZgA5AGMAMAAyADYAYwA1ADcALgBkAGwAbAAAAFYAGQABAEwAZQBnAGEAbABDAG8A
+cAB5AHIAaQBnAGgAdAAAAEMAbwBwAHkAcgBpAGcAaAB0ACAAQAAgAEgAUAAgAEkAbgBjAC4AIAAy
+ADAAMQA5AAAAAAAqAAEAAQBMAGUAZwBhAGwAVAByAGEAZABlAG0AYQByAGsAcwAAAAAAAAAAAHgA
+KAABAE8AcgBpAGcAaQBuAGEAbABGAGkAbABlAG4AYQBtAGUAAABTAFQAXwA1ADYAZgA5ADQAZAA0
+ADYANwBjAGIAYwA0ADUANQBhADgAYwBjADEANAA4ADgAZgA5AGMAMAAyADYAYwA1ADcALgBkAGwA
+bAAAAGgAJAABAFAAcgBvAGQAdQBjAHQATgBhAG0AZQAAAAAAUwBUAF8ANQA2AGYAOQA0AGQANAA2
+ADcAYwBiAGMANAA1ADUAYQA4AGMAYwAxADQAOAA4AGYAOQBjADAAMgA2AGMANQA3AAAAQgAPAAEA
+UAByAG8AZAB1AGMAdABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADAANAA1AC4AMgAxADQANAA3
+AAAAAABGAA8AAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgA3ADAA
+NAA1AC4AMgAxADQANAA3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAMAAAAED0A
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAMAAAAjDwA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2785,14 +3115,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
-      <DTS:ForEachVariableMappings>
-        <DTS:ForEachVariableMapping
-          DTS:CreationName=""
-          DTS:DTSID="{B3205201-648A-4569-BB7E-7AAD639BE37E}"
-          DTS:ObjectName="{B3205201-648A-4569-BB7E-7AAD639BE37E}"
-          DTS:ValueIndex="0"
-          DTS:VariableName="User::miCantidadDeArchivosProcesados" />
-      </DTS:ForEachVariableMappings>
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Trunque las tablas MarriedWomen MarriedMen SingleWomen SingleMen y Others"
@@ -2852,48 +3174,52 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="122.4,41.6"
           Id="Package\leer tabla"
-          TopLeft="268.000004564013,10.7764705710757" />
+          TopLeft="320.571434030728,10.7764705710757" />
+        <NodeLayout
+          Size="116.8,41.6"
+          Id="Package\Mensaje"
+          TopLeft="624.142867771947,313.376474983222" />
         <NodeLayout
           Size="175.2,41.6"
           Id="Package\Procesar\Tarea Flujo de datos"
-          TopLeft="57,26.5647060024697" />
+          TopLeft="47.857142701441,52.8705887243409" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="291.2,168"
-          Size="291.2,211.2"
+          PanelSize="267.2,177.6"
+          Size="267.2,220.8"
           Id="Package\Procesar"
-          TopLeft="198.285714597118,191.000000875137" />
+          TopLeft="232.000000885554,195.282353876372" />
         <NodeLayout
           Size="460.8,41.6"
           Id="Package\Trunque las tablas MarriedWomen MarriedMen SingleWomen SingleMen y Others"
-          TopLeft="116.285714665237,84.258824301591" />
+          TopLeft="170.000001294272,104.447059878841" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="329.200004564013,52.3764705710757">
+          TopLeft="381.771434030728,52.3764705710757">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="17.4857101012245,31.8823537305153"
+              EndConnector="18.6285672635439,52.0705893077653"
               Start="0,0"
-              End="17.4857101012245,24.3823537305153">
+              End="18.6285672635439,44.5705893077653">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,11.9411768652576" />
+                    End="0,22.0352946538827" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,11.9411768652576"
-                    Point2="0,15.9411768652576"
-                    Point3="4,15.9411768652576" />
+                    Point1="0,22.0352946538827"
+                    Point2="0,26.0352946538827"
+                    Point3="4,26.0352946538827" />
                   <mssgle:LineSegment
-                    End="13.4857101012245,15.9411768652576" />
+                    End="14.6285672635439,26.0352946538827" />
                   <mssgle:CubicBezierSegment
-                    Point1="13.4857101012245,15.9411768652576"
-                    Point2="17.4857101012245,15.9411768652576"
-                    Point3="17.4857101012245,19.9411768652576" />
+                    Point1="14.6285672635439,26.0352946538827"
+                    Point2="18.6285672635439,26.0352946538827"
+                    Point3="18.6285672635439,30.0352946538827" />
                   <mssgle:LineSegment
-                    End="17.4857101012245,24.3823537305153" />
+                    End="18.6285672635439,44.5705893077653" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2904,18 +3230,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="345.285714631178,125.858824301591">
+          TopLeft="400.400001294272,146.047059878841">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,65.1411765735455"
+              EndConnector="-34.8000004087174,49.2352939975308"
               Start="0,0"
-              End="0,57.6411765735455">
+              End="-34.8000004087174,41.7352939975308">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,57.6411765735455" />
+                    End="0,20.6176469987654" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.6176469987654"
+                    Point2="0,24.6176469987654"
+                    Point3="-4,24.6176469987654" />
+                  <mssgle:LineSegment
+                    End="-30.8000004087174,24.6176469987654" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-30.8000004087174,24.6176469987654"
+                    Point2="-34.8000004087174,24.6176469987654"
+                    Point3="-34.8000004087174,28.6176469987654" />
+                  <mssgle:LineSegment
+                    End="-34.8000004087174,41.7352939975308" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2924,36 +3262,32 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\Mensaje"
-          TopLeft="629.285725002386,294.411768834896" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="489.485714597118,296.600000875137">
+          TopLeft="499.200000885554,305.682353876372">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="139.800010405268,18.6117679597593"
+              EndConnector="124.942866886392,28.4941211068502"
               Start="0,0"
-              End="132.300010405268,18.6117679597593">
+              End="117.442866886392,28.4941211068502">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="65.9000052026341,0" />
+                    End="58.4714334431962,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="65.9000052026341,0"
-                    Point2="69.9000052026341,0"
-                    Point3="69.9000052026341,4" />
+                    Point1="58.4714334431962,0"
+                    Point2="62.4714334431962,0"
+                    Point3="62.4714334431962,4" />
                   <mssgle:LineSegment
-                    End="69.9000052026341,14.6117679597593" />
+                    End="62.4714334431962,24.4941211068502" />
                   <mssgle:CubicBezierSegment
-                    Point1="69.9000052026341,14.6117679597593"
-                    Point2="69.9000052026341,18.6117679597593"
-                    Point3="73.9000052026341,18.6117679597593" />
+                    Point1="62.4714334431962,24.4941211068502"
+                    Point2="62.4714334431962,28.4941211068502"
+                    Point3="66.4714334431962,28.4941211068502" />
                   <mssgle:LineSegment
-                    End="132.300010405268,18.6117679597593" />
+                    End="117.442866886392,28.4941211068502" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
