@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="35"
-  DTS:VersionGUID="{EBE4809A-BBC7-4566-B065-B8F49B865D08}">
+  DTS:VersionBuild="48"
+  DTS:VersionGUID="{6BD1F9AA-18FD-4F52-B163-228F219D369F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -367,7 +367,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC4u7ZPmsf/G3Zf7sEFjlmgHE5bid0Dn2MA804mfpdBRwAAAAAOgAAAAAIAACAAAACDMi9FkygTuGUHb3tBb2P00oH5gB0P+P2IZjGvzJLPZBAAAAD5sgZnMJhfHaeVSgVmtlhSQAAAACMQLiUzEm8yjU7XpecW0H8lC7D+1Bamsa1+pTcJO0T5WacSxSBDOsCdzXNftLh3JOzAj3nF4x1n6tfN4e8yNdo</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGTm7Jqn3pZP8gEhOqx/o0REfc22OgvNXIfAnRAFRFtAAAAAAOgAAAAAIAACAAAADUAE9RmjWqWLgGo2JcvAxabkDTNjwHM437LFtUW3fAwRAAAADl5W2SW1+VyCenlUeUGMY0QAAAAHpxYf7frSWchfdqe7tLRK4L9TwwvZSXUBvHh7uTHBsjFhhz2fIV1//yP3YfBaxxR1vnw6KChLMIYM4XmLmbxBQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -382,7 +382,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAVPcaayv9ruuT5DXxDyNogdg8Um2aoKj1PI9C22T6qfAAAAAAOgAAAAAIAACAAAAAVO57Y+ak+fmeS+ZhtKepPDrP5NENe6hokSU8pEunDvRAAAABWVQPUdhnJpI0CZsy1sdLtQAAAAGH9/xaPmR0a2XapIsDYEies4p0jDojnasTd6WYxVkczT3wQyrLD4GW36oyiNb1CEBSjMmxD3UDzmhhPe0+5Aag</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABdKrWs2zlQbWgLvH7yYMuFfjEanksWXtuPVE1r8+lENQAAAAAOgAAAAAIAACAAAAC5n8BFj+wSpdn51Ni1JnW8UHuuxuMBO+WFxiqDL5eN4RAAAACu8tD6q4vzQF8EuiWKeQpWQAAAAP+iJn2Br33dvf9Ud7BsVb2OCcYEOIMyl5iQvqjyBj3W6qZJEgtas8dTbcfiP8CDDOseM3XWHSSCvRE4517W1Ck</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -397,7 +397,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACxwzuoyDnNWaOJw1JRYj2lDauFQuxO+v34wbA+LkEglAAAAAAOgAAAAAIAACAAAABpym3PL8PbDru/Fy0mELz1OI5yzHhNB27gBcVbqaLkghAAAAC8UHsDzJWe47ZThUEOt5WjQAAAAFMqKwr6NF9ep2wftq8W4aMz009timRuT7HSLsCQDNT4UGzJL0+vB7FlVHdcGRU2eNR2zmSShZpv4dI4ZHadOjA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABBer8U6EXhhH3Uq4vAygh60x25MveOLdywmdtrXkqVCQAAAAAOgAAAAAIAACAAAAB6EXIXa5fccXZUeFMEG5H99Q6K8mUpps/vg37ofLNlphAAAABW/3+djT7XEpd5pEXHzQ/mQAAAAFnT6l/cQ9kmQOnRfWRzKgf4XGdQm5FqCc9UXiDl+QPMNGTJqlRhbSJB7uUON0S9zORH44Tg73QC7T6HN1Mr3XA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -412,7 +412,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAoJMZW6HoWyyGW2M/0Iqs+UFCxk3kcSLVeAT7hsQ/H1QAAAAAOgAAAAAIAACAAAACHGZBZ1hJTwZIeFBDnTJoPqgRytyC+C1vszKW+ey0/chAAAAC3W2syCuj97vbre7utAuqEQAAAANy0KVco/sOzlbrzSFFsSgh37Vl+voC/05+g4RTbZuE/RJX44emR8NaJppWireRV3P5v2AOhemWpEvpNFtbhYn0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADVdpvGhf3jBWTEWXnF2mF75ZknB2zGf1fJVjRg1A7/GgAAAAAOgAAAAAIAACAAAADJQbEiIUURM/Lo2VBIhUCQ4Us6aeNjNjEkzzRPcNscwRAAAABnGba4swGAdbAQFcpHrjLpQAAAAAQokzrlq5Lx4hKyqGb6Ez4i+IfVJSrTXYB3saFN1lEHjGFiOEO5Sv6PBXlsp5q518fWzTuganD7vHonE3lTYsM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -427,7 +427,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA74d9iTNxR9W+qveli8aCLXphRw3fPkpf3Th9ec9lNhgAAAAAOgAAAAAIAACAAAADlTLdUJ1E+BGYRguA+9cjJIno5YruXIwes1XlkHJxiNRAAAACmmySCCoro0puBYSzYPy+aQAAAADM+wKCsHPP6KrkzU/+LOuvrbSvc3b/KTFXaIf51PFVIydbH1efi/Tnm6r+TaF86rjEQY1+0iQqgycP1t7f6d54</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABc6wjLp7AAhYgk9aeFyv2tb211H7IuPsywDbMPByGdFAAAAAAOgAAAAAIAACAAAACWcwXzOB3vEvYIKQrDKVZp3+SqgOGBcnP1g5rRGq0SvBAAAAAeNYaEVWU4KiD/Xg2OcWieQAAAAO+l6hxsBda/cKKO50qFGXmZ6wss9XmmWv3M3DWhIYWFeDvpO/vwbFfirfVcpw096hHCwl39dKZLUZLcGB4YuTY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -702,20 +702,20 @@
               version="1">
               <components>
                 <component
-                  refId="Package\Procesar\Tarea Flujo de datos\Años"
+                  refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños"
                   componentClassID="Microsoft.DerivedColumn"
                   contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
                   description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-                  name="Años"
+                  name="AntiguedadAños"
                   usesDispositions="true">
                   <inputs>
                     <input
-                      refId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]"
+                      refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Inputs[Derived Column Input]"
                       description="Input to the Derived Column Transformation"
                       name="Derived Column Input">
                       <inputColumns>
                         <inputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input].Columns[HireDateYear]"
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Inputs[Derived Column Input].Columns[HireDateYear]"
                           cachedCodepage="1252"
                           cachedDataType="str"
                           cachedLength="50"
@@ -727,18 +727,18 @@
                   </inputs>
                   <outputs>
                     <output
-                      refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output]"
+                      refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output]"
                       description="Default Output of the Derived Column Transformation"
                       exclusionGroup="1"
                       name="Derived Column Output"
-                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]">
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Inputs[Derived Column Input]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]"
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output].Columns[YearsOfAntiquity]"
                           dataType="i4"
                           errorOrTruncationOperation="Computation"
                           errorRowDisposition="IgnoreFailure"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output].Columns[YearsOfAntiquity]"
                           name="YearsOfAntiquity"
                           truncationRowDisposition="FailComponent">
                           <properties>
@@ -746,36 +746,118 @@
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Expression"
-                              name="Expression">[DATEDIFF]("yy",(DT_DATE)#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]},[GETDATE]())</property>
+                              name="Expression">2019 - (DT_I4)#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]}</property>
                             <property
                               containsID="true"
                               dataType="System.String"
                               description="Derived Column Friendly Expression"
                               expressionType="Notify"
-                              name="FriendlyExpression">DATEDIFF("yy",(DT_DATE)HireDateYear,GETDATE())</property>
+                              name="FriendlyExpression">2019 - (DT_I4)HireDateYear</property>
                           </properties>
                         </outputColumn>
                       </outputColumns>
                       <externalMetadataColumns />
                     </output>
                     <output
-                      refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output]"
+                      refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Error Output]"
                       description="Error Output of the Derived Column Transformation"
                       exclusionGroup="1"
                       isErrorOut="true"
                       name="Derived Column Error Output"
-                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]">
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Inputs[Derived Column Input]">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                           dataType="i4"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="AntiguedadMeses"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Inputs[Derived Column Input].Columns[HireDateMonth]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateMonth"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateMonth]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="IgnoreFailure"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]"
+                          name="AdditionalMonthsOfAntiquity"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">(DT_I4)#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateMonth]}</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">(DT_I4)HireDateMonth</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -1051,13 +1133,13 @@
                           cachedDataType="i4"
                           cachedName="YearsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
                           cachedDataType="i4"
                           cachedName="AdditionalMonthsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[Gender]"
                           cachedCodepage="1252"
@@ -1102,7 +1184,8 @@
                           name="SegundoApellido" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
-                          dataType="dbTimeStamp"
+                          dataType="wstr"
+                          length="50"
                           name="FechaContratacion" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
@@ -1236,13 +1319,13 @@
                           cachedDataType="i4"
                           cachedName="YearsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
                           cachedDataType="i4"
                           cachedName="AdditionalMonthsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[Gender]"
                           cachedCodepage="1252"
@@ -1287,7 +1370,8 @@
                           name="SegundoApellido" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
-                          dataType="dbTimeStamp"
+                          dataType="wstr"
+                          length="50"
                           name="FechaContratacion" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
@@ -1328,88 +1412,6 @@
                           refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
                           dataType="i4"
                           lineageId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-                <component
-                  refId="Package\Procesar\Tarea Flujo de datos\meses"
-                  componentClassID="Microsoft.DerivedColumn"
-                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-                  name="meses"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]"
-                      description="Input to the Derived Column Transformation"
-                      name="Derived Column Input">
-                      <inputColumns>
-                        <inputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input].Columns[HireDateYear]"
-                          cachedCodepage="1252"
-                          cachedDataType="str"
-                          cachedLength="50"
-                          cachedName="HireDateYear"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
-                      </inputColumns>
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output]"
-                      description="Default Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      name="Derived Column Output"
-                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]"
-                          dataType="i4"
-                          errorOrTruncationOperation="Computation"
-                          errorRowDisposition="IgnoreFailure"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]"
-                          name="AdditionalMonthsOfAntiquity"
-                          truncationRowDisposition="FailComponent">
-                          <properties>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Expression"
-                              name="Expression">[DATEDIFF]("yy",(DT_DATE)#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]},[GETDATE]())</property>
-                            <property
-                              containsID="true"
-                              dataType="System.String"
-                              description="Derived Column Friendly Expression"
-                              expressionType="Notify"
-                              name="FriendlyExpression">DATEDIFF("yy",(DT_DATE)HireDateYear,GETDATE())</property>
-                          </properties>
-                        </outputColumn>
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output]"
-                      description="Error Output of the Derived Column Transformation"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Derived Column Error Output"
-                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -1848,13 +1850,13 @@
                           cachedDataType="i4"
                           cachedName="YearsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
                           cachedDataType="i4"
                           cachedName="AdditionalMonthsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[Gender]"
                           cachedCodepage="1252"
@@ -1899,7 +1901,8 @@
                           name="SegundoApellido" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
-                          dataType="dbTimeStamp"
+                          dataType="wstr"
+                          length="50"
                           name="FechaContratacion" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
@@ -2033,13 +2036,13 @@
                           cachedDataType="i4"
                           cachedName="YearsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
                           cachedDataType="i4"
                           cachedName="AdditionalMonthsOfAntiquity"
                           externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
-                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                          lineageId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
                         <inputColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[Gender]"
                           cachedCodepage="1252"
@@ -2084,7 +2087,8 @@
                           name="SegundoApellido" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
-                          dataType="dbTimeStamp"
+                          dataType="wstr"
+                          length="50"
                           name="FechaContratacion" />
                         <externalMetadataColumn
                           refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
@@ -2156,17 +2160,17 @@
                   startId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 4]" />
                 <path
                   refId="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output]"
-                  endId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]"
+                  endId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Inputs[Derived Column Input]"
                   name="Derived Column Output"
-                  startId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output]" />
+                  startId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output1]"
                   endId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
                   name="Derived Column Output"
-                  startId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output]" />
+                  startId="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses.Outputs[Derived Column Output]" />
                 <path
                   refId="Package\Procesar\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-                  endId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]"
+                  endId="Package\Procesar\Tarea Flujo de datos\AntiguedadAños.Inputs[Derived Column Input]"
                   name="Salida de origen de archivo plano"
                   startId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano]" />
               </paths>
@@ -2306,17 +2310,17 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="108,41.6"
-          Id="Package\Procesar\Tarea Flujo de datos\meses"
-          TopLeft="464.842860432061,67.9941156737117" />
+          Size="160.8,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\AntiguedadMeses"
+          TopLeft="539.128575982853,86.3470571075754" />
         <NodeLayout
-          Size="101.6,41.6"
-          Id="Package\Procesar\Tarea Flujo de datos\Años"
-          TopLeft="316.614286424676,62.441175844265" />
+          Size="154.4,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\AntiguedadAños"
+          TopLeft="293.757143178278,80.1823525636665" />
         <NodeLayout
           Size="191.2,41.6"
           Id="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="35.8142824056196,72.7941185908334" />
+          TopLeft="30.0999965940202,80.7470598788409" />
         <NodeLayout
           Size="133.6,41.6"
           Id="Package\Procesar\Tarea Flujo de datos\MarriedMen"
@@ -2327,30 +2331,18 @@
           TopLeft="287.928572100036,214.864704543909" />
         <EdgeLayout
           Id="Package\Procesar\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="227.01428240562,93.5941185908334">
+          TopLeft="221.29999659402,101.264706221254">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="89.6000040190561,-10.3529427465684"
+              EndConnector="72.4571465842578,0"
               Start="0,0"
-              End="82.1000040190561,-10.3529427465684">
+              End="64.9571465842578,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="40.8000020095281,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="40.8000020095281,0"
-                    Point2="44.8000020095281,0"
-                    Point3="44.8000020095281,-4" />
-                  <mssgle:LineSegment
-                    End="44.8000020095281,-6.3529427465684" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.8000020095281,-6.3529427465684"
-                    Point2="44.8000020095281,-10.3529427465684"
-                    Point3="48.8000020095281,-10.3529427465684" />
-                  <mssgle:LineSegment
-                    End="82.1000040190561,-10.3529427465684" />
+                    End="64.9571465842578,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2361,30 +2353,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output1]"
-          TopLeft="518.842860432061,109.594115673712">
+          TopLeft="619.528575982853,127.947057107575">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-153.714288332025,105.270588870197"
+              EndConnector="-254.400003882817,86.9176474363333"
               Start="0,0"
-              End="-153.714288332025,97.7705888701969">
+              End="-254.400003882817,79.4176474363333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48.6352944350985" />
+                    End="0,39.4588237181666" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,48.6352944350985"
-                    Point2="0,52.6352944350985"
-                    Point3="-4,52.6352944350985" />
+                    Point1="0,39.4588237181666"
+                    Point2="0,43.4588237181666"
+                    Point3="-4,43.4588237181666" />
                   <mssgle:LineSegment
-                    End="-149.714288332025,52.6352944350985" />
+                    End="-250.400003882817,43.4588237181666" />
                   <mssgle:CubicBezierSegment
-                    Point1="-149.714288332025,52.6352944350985"
-                    Point2="-153.714288332025,52.6352944350985"
-                    Point3="-153.714288332025,56.6352944350985" />
+                    Point1="-250.400003882817,43.4588237181666"
+                    Point2="-254.400003882817,43.4588237181666"
+                    Point3="-254.400003882817,47.4588237181666" />
                   <mssgle:LineSegment
-                    End="-153.714288332025,97.7705888701969" />
+                    End="-254.400003882817,79.4176474363333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2395,18 +2387,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output]"
-          TopLeft="418.214286424676,86.0176457589883">
+          TopLeft="448.157143178278,104.064704835621">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="46.6285740073848,0"
+              EndConnector="90.971432804575,0"
               Start="0,0"
-              End="39.1285740073848,0">
+              End="83.471432804575,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="39.1285740073848,0" />
+                    End="83.471432804575,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
