@@ -11,11 +11,121 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{6AAF665D-2B9A-4812-9CFE-8289FADC67B9}">
+  DTS:VersionBuild="35"
+  DTS:VersionGUID="{EBE4809A-BBC7-4566-B065-B8F49B865D08}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Archivo6]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{B41A4E04-5238-49E1-9733-5ED93B1A92B9}"
+      DTS:ObjectName="Archivo6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\steve\Desktop\archivos-pregunta-2\archivo-6-pregunta2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BusinessEntityID"
+              DTS:DTSID="{D4F73CE1-D322-490F-9121-DCD85826AE66}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{8BEB5EB4-3FF5-4751-83AC-9FE2743C1ED9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{AA9D6E8A-E83E-4248-A664-4109CD700A99}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobTitle"
+              DTS:DTSID="{E2831FBC-896B-416D-B161-77DBA0A372E4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{E9614BF0-77DD-4C67-A7C4-A8BDEF87F3A1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{06A5E986-ABB2-4B3E-AB94-C1D79F9755E3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{A447332E-93D5-42BE-B433-A295493A6C12}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateYear"
+              DTS:DTSID="{01BD89A0-B339-4FA7-B5D9-C47A7BD8870F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateDay"
+              DTS:DTSID="{CFA807CF-1141-406F-BCC6-792D50CB7EF3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateMonth"
+              DTS:DTSID="{0A2832DF-242E-4F21-8628-5098378793FB}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
@@ -127,6 +237,116 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{6DFB44CC-CEFE-4D36-AD22-677122FC0EA8}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\steve\Desktop\archivos-pregunta-2\archivo-6-pregunta2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BusinessEntityID"
+              DTS:DTSID="{4A8383D4-8EF2-4FF9-B43A-639CD1E8DEC0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{3D51CF3A-766F-4FFA-A353-AD002C48920D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{993374D6-5371-4030-869E-3497A2DCA96B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobTitle"
+              DTS:DTSID="{3EDA7A37-0C28-4DDD-86D5-4C7CE5114FAF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{DD16FB36-A7AC-475D-8F57-3642D26CD2C0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{D13C950A-EBA8-40AF-9B3E-5526D869FA75}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{7C6B6D66-0B5A-4FAD-BFEF-2E1329EDA985}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateYear"
+              DTS:DTSID="{F02D7486-F47A-4373-AE10-373E0E6D5B27}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateDay"
+              DTS:DTSID="{E8A1EA88-2B2F-4652-8C06-C4092174DA67}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateMonth"
+              DTS:DTSID="{C0DA8A9A-7120-4256-B589-415149B11FCE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[JESUS\NOEXPRESS.4EachADO.sa]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{6DD3097A-CEBB-4BC5-AC22-047EDA3FDB48}"
@@ -147,7 +367,177 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB8y6vi0PhTUix2WgKVxspSzSS8ZCfFeUlA6sUipcmAJwAAAAAOgAAAAAIAACAAAAA47hoyjEjyhhvfgF/rXtQtisR9IJBJFYPMVdJIW7D9fRAAAAC2V12pa4n+gazpU18yR3akQAAAAH8L9GThLNrCulbIkRNYoakDtezLz+nbkFlSE7/VhgiL+t0cKuUSY9KLeWrsAdJuovTNZ9WyE/nzvzqPKwfKOuw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC4u7ZPmsf/G3Zf7sEFjlmgHE5bid0Dn2MA804mfpdBRwAAAAAOgAAAAAIAACAAAACDMi9FkygTuGUHb3tBb2P00oH5gB0P+P2IZjGvzJLPZBAAAAD5sgZnMJhfHaeVSgVmtlhSQAAAACMQLiUzEm8yjU7XpecW0H8lC7D+1Bamsa1+pTcJO0T5WacSxSBDOsCdzXNftLh3JOzAj3nF4x1n6tfN4e8yNdo</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B887F012-8176-47FF-A1F7-CC089855F913}"
+      DTS:ObjectName="LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-637HAK9E\SQLSERVER;User ID=sa;Initial Catalog=4EachADO;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAVPcaayv9ruuT5DXxDyNogdg8Um2aoKj1PI9C22T6qfAAAAAAOgAAAAAIAACAAAAAVO57Y+ak+fmeS+ZhtKepPDrP5NENe6hokSU8pEunDvRAAAABWVQPUdhnJpI0CZsy1sdLtQAAAAGH9/xaPmR0a2XapIsDYEies4p0jDojnasTd6WYxVkczT3wQyrLD4GW36oyiNb1CEBSjMmxD3UDzmhhPe0+5Aag</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa 2]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8E66F98E-3092-41D2-8D6E-8982E6062A8B}"
+      DTS:ObjectName="LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-637HAK9E\SQLSERVER;User ID=sa;Initial Catalog=4EachADO;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACxwzuoyDnNWaOJw1JRYj2lDauFQuxO+v34wbA+LkEglAAAAAAOgAAAAAIAACAAAABpym3PL8PbDru/Fy0mELz1OI5yzHhNB27gBcVbqaLkghAAAAC8UHsDzJWe47ZThUEOt5WjQAAAAFMqKwr6NF9ep2wftq8W4aMz009timRuT7HSLsCQDNT4UGzJL0+vB7FlVHdcGRU2eNR2zmSShZpv4dI4ZHadOjA</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{F1333CB4-C79D-4720-A8CD-808280941218}"
+      DTS:ObjectName="LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-637HAK9E\SQLSERVER;User ID=sa;Initial Catalog=4EachADO;Application Name=SSIS-Package-{F1333CB4-C79D-4720-A8CD-808280941218}LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAoJMZW6HoWyyGW2M/0Iqs+UFCxk3kcSLVeAT7hsQ/H1QAAAAAOgAAAAAIAACAAAACHGZBZ1hJTwZIeFBDnTJoPqgRytyC+C1vszKW+ey0/chAAAAC3W2syCuj97vbre7utAuqEQAAAANy0KVco/sOzlbrzSFFsSgh37Vl+voC/05+g4RTbZuE/RJX44emR8NaJppWireRV3P5v2AOhemWpEvpNFtbhYn0</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1 1]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{8AFC2958-4CEC-4A0F-99DD-2E6F4802CFAE}"
+      DTS:ObjectName="LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=LAPTOP-637HAK9E\SQLSERVER;User ID=sa;Initial Catalog=4EachADO;Application Name=SSIS-Package-{8AFC2958-4CEC-4A0F-99DD-2E6F4802CFAE}LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1 1;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7tg4sHpJbUajago2Y2XtKQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA74d9iTNxR9W+qveli8aCLXphRw3fPkpf3Th9ec9lNhgAAAAAOgAAAAAIAACAAAADlTLdUJ1E+BGYRguA+9cjJIno5YruXIwes1XlkHJxiNRAAAACmmySCCoro0puBYSzYPy+aQAAAADM+wKCsHPP6KrkzU/+LOuvrbSvc3b/KTFXaIf51PFVIydbH1efi/Tnm6r+TaF86rjEQY1+0iQqgycP1t7f6d54</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[MisArchivos]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{D9AAD331-7C64-4325-B812-F2EAB555EF75}"
+      DTS:ObjectName="MisArchivos">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\steve\Desktop\archivos-pregunta-2\archivo-2-pregunta2.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BusinessEntityID"
+              DTS:DTSID="{4FE0FD3E-950D-41A5-AA86-D14B5B6376E7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FirstName"
+              DTS:DTSID="{CCD6E730-04D6-4C37-A8CA-CF0554D16A50}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastName"
+              DTS:DTSID="{979AC78C-A675-433C-AF3E-0E00D3F121C7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="JobTitle"
+              DTS:DTSID="{F498D88D-0809-48F9-93C9-37ADAAD00E35}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirthDate"
+              DTS:DTSID="{C9CB2612-D73F-42AE-A564-88801D4799A9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="MaritalStatus"
+              DTS:DTSID="{F65FB4BA-FC25-4B0B-9E6D-7E97C9BA4654}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{0F144826-CD41-4D04-9C63-7534ACD5692C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateYear"
+              DTS:DTSID="{9C300DE8-C676-4F2A-83E0-359B1125BF2F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x0009_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateDay"
+              DTS:DTSID="{959C3072-58C3-4E7D-8B4A-D7F38AB31D86}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="HireDateMonth"
+              DTS:DTSID="{D360250E-7D38-46C4-842F-399791D5266D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -162,7 +552,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="ArchivoPorProcesar">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Archivos a cargar\archivos-pregunta-2\\</DTS:VariableValue>
+        DTS:DataType="8">C:\Archivos a cargar\archivos-2-pregunta-2\\</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -208,7 +598,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="miRutaDeUbicacionDeArchivos">
       <DTS:VariableValue
-        DTS:DataType="8">C:\Archivos a cargar\archivos-pregunta-2</DTS:VariableValue>
+        DTS:DataType="8">C:\Archivos a cargar\archivos-2-pregunta-2</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -312,6 +702,722 @@
               version="1">
               <components>
                 <component
+                  refId="Package\Procesar\Tarea Flujo de datos\Años"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Años"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input].Columns[HireDateYear]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateYear"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="IgnoreFailure"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]"
+                          name="YearsOfAntiquity"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[DATEDIFF]("yy",(DT_DATE)#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]},[GETDATE]())</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">DATEDIFF("yy",(DT_DATE)HireDateYear,GETDATE())</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\Conditional Split"
+                  componentClassID="Microsoft.ConditionalSplit"
+                  contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+                  name="Conditional Split"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
+                      description="Input to the Conditional Split Transformation"
+                      name="Conditional Split Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input].Columns[MaritalStatus]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="MaritalStatus"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input].Columns[Gender]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Gender"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 1]"
+                      description="Output 1 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Case 1"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]} == "M" &amp;&amp; #{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]} == "M"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">MaritalStatus == "M" &amp;&amp; Gender == "M"</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">0</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 2]"
+                      description="Output 2 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Case 2"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]} == "M" &amp;&amp; #{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]} == "F"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">MaritalStatus == "M" &amp;&amp; Gender == "F"</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">1</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 3]"
+                      description="Output 3 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Case 3"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]} == "S" &amp;&amp; #{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]} == "M"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">MaritalStatus == "S" &amp;&amp; Gender == "M"</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">2</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 4]"
+                      description="Output 4 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Case 4"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]} == "S" &amp;&amp; #{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]} == "F"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">MaritalStatus == "S" &amp;&amp; Gender == "F"</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">3</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Conditional Split Default Output]"
+                      description="Default Output of the Conditional Split Transformation"
+                      exclusionGroup="1"
+                      name="Conditional Split Default Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="IsDefaultOut">true</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Conditional Split Error Output]"
+                      description="Error Output of the Conditional Split Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Conditional Split Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\MarriedMen"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+                  description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+                  name="MarriedMen"
+                  usesDispositions="true"
+                  version="2">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="The Destination database table name."
+                      expressionType="Notify"
+                      name="TableOrViewName"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."MarriedMen"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                      expressionType="Notify"
+                      name="BatchSize">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                      expressionType="Notify"
+                      name="CommandTimeout">30</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                      expressionType="Notify"
+                      name="UseBulkInsertWhenPossible">true</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Connections[IDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      description="Managed connection manager"
+                      name="IDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input]"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="ADO NET Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[BusinessEntityID]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="BusinessEntityID"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[BusinessEntityID]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[FirstName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="FirstName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FirstName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[LastName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="LastName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[LastName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[HireDateYear]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateYear"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[YearsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="YearsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="AdditionalMonthsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[Gender]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Gender"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].Columns[MaritalStatus]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="MaritalStatus"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[NumeroDeArchivo]"
+                          dataType="i4"
+                          name="NumeroDeArchivo" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          dataType="i4"
+                          name="IdEmpleado" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="PrimerApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[SegundoApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="SegundoApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          dataType="dbTimeStamp"
+                          name="FechaContratacion" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          dataType="i4"
+                          name="AntiguedadAnos" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          dataType="i4"
+                          name="MesesAdicionales" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          dataType="wstr"
+                          length="50"
+                          name="Genero" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="50"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Outputs[ADO NET Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="ADO NET Destination Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+                  description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+                  name="MarriedWomen"
+                  usesDispositions="true"
+                  version="2">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="The Destination database table name."
+                      expressionType="Notify"
+                      name="TableOrViewName"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."MarriedWomen"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                      expressionType="Notify"
+                      name="BatchSize">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                      expressionType="Notify"
+                      name="CommandTimeout">30</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                      expressionType="Notify"
+                      name="UseBulkInsertWhenPossible">true</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Connections[IDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      description="Managed connection manager"
+                      name="IDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input]"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="ADO NET Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[BusinessEntityID]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="BusinessEntityID"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[BusinessEntityID]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[FirstName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="FirstName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FirstName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[LastName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="LastName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[LastName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[HireDateYear]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateYear"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[YearsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="YearsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="AdditionalMonthsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[Gender]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Gender"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].Columns[MaritalStatus]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="MaritalStatus"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[NumeroDeArchivo]"
+                          dataType="i4"
+                          name="NumeroDeArchivo" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          dataType="i4"
+                          name="IdEmpleado" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="PrimerApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[SegundoApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="SegundoApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          dataType="dbTimeStamp"
+                          name="FechaContratacion" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          dataType="i4"
+                          name="AntiguedadAnos" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          dataType="i4"
+                          name="MesesAdicionales" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          dataType="wstr"
+                          length="50"
+                          name="Genero" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="50"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="ADO NET Destination Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\meses"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="meses"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input].Columns[HireDateYear]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateYear"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="IgnoreFailure"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]"
+                          name="AdditionalMonthsOfAntiquity"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[DATEDIFF]("yy",(DT_DATE)#{Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]},[GETDATE]())</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">DATEDIFF("yy",(DT_DATE)HireDateYear,GETDATE())</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
                   refId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano"
                   componentClassID="Microsoft.FlatFileSource"
                   contactInfo="Origen de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
@@ -333,8 +1439,8 @@
                   <connections>
                     <connection
                       refId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Connections[FlatFileConnection]"
-                      connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
-                      connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                      connectionManagerID="Package.ConnectionManagers[Archivo6]"
+                      connectionManagerRefId="Package.ConnectionManagers[Archivo6]"
                       name="FlatFileConnection" />
                   </connections>
                   <outputs>
@@ -656,7 +1762,414 @@
                     </output>
                   </outputs>
                 </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\SingleMen"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+                  description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+                  name="SingleMen"
+                  usesDispositions="true"
+                  version="2">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="The Destination database table name."
+                      expressionType="Notify"
+                      name="TableOrViewName"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."SingleMen"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                      expressionType="Notify"
+                      name="BatchSize">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                      expressionType="Notify"
+                      name="CommandTimeout">30</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                      expressionType="Notify"
+                      name="UseBulkInsertWhenPossible">true</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Connections[IDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      description="Managed connection manager"
+                      name="IDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input]"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="ADO NET Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[BusinessEntityID]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="BusinessEntityID"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[BusinessEntityID]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[FirstName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="FirstName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FirstName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[LastName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="LastName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[LastName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[HireDateYear]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateYear"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[YearsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="YearsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="AdditionalMonthsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[Gender]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Gender"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].Columns[MaritalStatus]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="MaritalStatus"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[NumeroDeArchivo]"
+                          dataType="i4"
+                          name="NumeroDeArchivo" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          dataType="i4"
+                          name="IdEmpleado" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="PrimerApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[SegundoApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="SegundoApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          dataType="dbTimeStamp"
+                          name="FechaContratacion" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          dataType="i4"
+                          name="AntiguedadAnos" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          dataType="i4"
+                          name="MesesAdicionales" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          dataType="wstr"
+                          length="50"
+                          name="Genero" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="50"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Outputs[ADO NET Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="ADO NET Destination Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\SingleMen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleMen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\SingleMen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Procesar\Tarea Flujo de datos\SingleWomen"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;2"
+                  description="Loads data into an ADO.NET-compliant database that uses a database table or view. Load data into a new or existing table. For example, use an ADO.NET provider for ODBC to load data into an ODBC destination."
+                  name="SingleWomen"
+                  usesDispositions="true"
+                  version="2">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="The Destination database table name."
+                      expressionType="Notify"
+                      name="TableOrViewName"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">"dbo"."SingleWomen"</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specify the number of rows per batch. The default is 0 which uses the same size as SSIS internal buffer. "
+                      expressionType="Notify"
+                      name="BatchSize">0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out. A value of 0 indicates infinite time-out. "
+                      expressionType="Notify"
+                      name="CommandTimeout">30</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Specifies whether to use the SqlBulkCopy interface to improve the performance of bulk insert operations. Only certain providers support this interface."
+                      expressionType="Notify"
+                      name="UseBulkInsertWhenPossible">true</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ADONETDestination</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Connections[IDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      connectionManagerRefId="Package.ConnectionManagers[LAPTOP-637HAK9E\SQLSERVER.4EachADO.sa1]"
+                      description="Managed connection manager"
+                      name="IDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input]"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="ADO NET Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[BusinessEntityID]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="BusinessEntityID"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[BusinessEntityID]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[FirstName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="FirstName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[FirstName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[LastName]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="LastName"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[LastName]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[HireDateYear]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="HireDateYear"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[HireDateYear]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[YearsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="YearsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output].Columns[YearsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[AdditionalMonthsOfAntiquity]"
+                          cachedDataType="i4"
+                          cachedName="AdditionalMonthsOfAntiquity"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output].Columns[AdditionalMonthsOfAntiquity]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[Gender]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Gender"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[Gender]" />
+                        <inputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].Columns[MaritalStatus]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="MaritalStatus"
+                          externalMetadataColumnId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano].Columns[MaritalStatus]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[NumeroDeArchivo]"
+                          dataType="i4"
+                          name="NumeroDeArchivo" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[IdEmpleado]"
+                          dataType="i4"
+                          name="IdEmpleado" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[PrimerApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="PrimerApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[SegundoApellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="SegundoApellido" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[FechaContratacion]"
+                          dataType="dbTimeStamp"
+                          name="FechaContratacion" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[AntiguedadAnos]"
+                          dataType="i4"
+                          name="AntiguedadAnos" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[MesesAdicionales]"
+                          dataType="i4"
+                          name="MesesAdicionales" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[Genero]"
+                          dataType="wstr"
+                          length="50"
+                          name="Genero" />
+                        <externalMetadataColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="50"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Outputs[ADO NET Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="ADO NET Destination Error Output"
+                      synchronousInputId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Outputs[ADO NET Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
               </components>
+              <paths>
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Case 1]"
+                  endId="Package\Procesar\Tarea Flujo de datos\MarriedMen.Inputs[ADO NET Destination Input]"
+                  name="Case 1"
+                  startId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 1]" />
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Case 2]"
+                  endId="Package\Procesar\Tarea Flujo de datos\MarriedWomen.Inputs[ADO NET Destination Input]"
+                  name="Case 2"
+                  startId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 2]" />
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Case 3]"
+                  endId="Package\Procesar\Tarea Flujo de datos\SingleMen.Inputs[ADO NET Destination Input]"
+                  name="Case 3"
+                  startId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 3]" />
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Case 4]"
+                  endId="Package\Procesar\Tarea Flujo de datos\SingleWomen.Inputs[ADO NET Destination Input]"
+                  name="Case 4"
+                  startId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Outputs[Case 4]" />
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output]"
+                  endId="Package\Procesar\Tarea Flujo de datos\meses.Inputs[Derived Column Input]"
+                  name="Derived Column Output"
+                  startId="Package\Procesar\Tarea Flujo de datos\Años.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output1]"
+                  endId="Package\Procesar\Tarea Flujo de datos\Conditional Split.Inputs[Conditional Split Input]"
+                  name="Derived Column Output"
+                  startId="Package\Procesar\Tarea Flujo de datos\meses.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Procesar\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+                  endId="Package\Procesar\Tarea Flujo de datos\Años.Inputs[Derived Column Input]"
+                  name="Salida de origen de archivo plano"
+                  startId="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano.Outputs[Salida de origen de archivo plano]" />
+              </paths>
             </pipeline>
           </DTS:ObjectData>
         </DTS:Executable>
@@ -710,50 +2223,50 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="176,41.6"
+          Size="122.4,41.6"
+          Id="Package\leer tabla"
+          TopLeft="268.000004564013,10.7764705710757" />
+        <NodeLayout
+          Size="175.2,41.6"
           Id="Package\Procesar\Tarea Flujo de datos"
-          TopLeft="57,18" />
+          TopLeft="57,26.5647060024697" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="291.2,168"
           Size="291.2,211.2"
           Id="Package\Procesar"
-          TopLeft="182.28571432464,151.235294435099" />
+          TopLeft="198.285714597118,191.000000875137" />
         <NodeLayout
           Size="460.8,41.6"
           Id="Package\Trunque las tablas MarriedWomen MarriedMen SingleWomen SingleMen y Others"
-          TopLeft="131.142857775396,76.9176477280456" />
-        <NodeLayout
-          Size="122.4,41.6"
-          Id="Package\leer tabla"
-          TopLeft="268.000004564013,10.7764705710757" />
+          TopLeft="116.285714665237,84.258824301591" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="329.200004564013,52.3764705710757">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="32.3428532113831,24.5411771569698"
+              EndConnector="17.4857101012245,31.8823537305153"
               Start="0,0"
-              End="32.3428532113831,17.0411771569698">
+              End="17.4857101012245,24.3823537305153">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,8.2705885784849" />
+                    End="0,11.9411768652576" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,8.2705885784849"
-                    Point2="0,12.2705885784849"
-                    Point3="4,12.2705885784849" />
+                    Point1="0,11.9411768652576"
+                    Point2="0,15.9411768652576"
+                    Point3="4,15.9411768652576" />
                   <mssgle:LineSegment
-                    End="28.3428532113831,12.2705885784849" />
+                    End="13.4857101012245,15.9411768652576" />
                   <mssgle:CubicBezierSegment
-                    Point1="28.3428532113831,12.2705885784849"
-                    Point2="32.3428532113831,12.2705885784849"
-                    Point3="32.3428532113831,16.2705885784849" />
+                    Point1="13.4857101012245,15.9411768652576"
+                    Point2="17.4857101012245,15.9411768652576"
+                    Point3="17.4857101012245,19.9411768652576" />
                   <mssgle:LineSegment
-                    End="32.3428532113831,17.0411771569698" />
+                    End="17.4857101012245,24.3823537305153" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -764,30 +2277,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="361.542857775396,118.517647728046">
+          TopLeft="345.285714631178,125.858824301591">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-33.6571434507562,32.7176467070531"
+              EndConnector="0,65.1411765735455"
               Start="0,0"
-              End="-33.6571434507562,25.2176467070531">
+              End="0,57.6411765735455">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.3588233535265" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.3588233535265"
-                    Point2="0,16.3588233535265"
-                    Point3="-4,16.3588233535265" />
-                  <mssgle:LineSegment
-                    End="-29.6571434507562,16.3588233535265" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-29.6571434507562,16.3588233535265"
-                    Point2="-33.6571434507562,16.3588233535265"
-                    Point3="-33.6571434507562,20.3588233535265" />
-                  <mssgle:LineSegment
-                    End="-33.6571434507562,25.2176467070531" />
+                    End="0,57.6411765735455" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -803,13 +2304,307 @@
     design-time-name="Package\Procesar\Tarea Flujo de datos">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="108,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\meses"
+          TopLeft="464.842860432061,67.9941156737117" />
+        <NodeLayout
+          Size="101.6,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\Años"
+          TopLeft="316.614286424676,62.441175844265" />
         <NodeLayout
           Size="191.2,41.6"
           Id="Package\Procesar\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="186,114" />
+          TopLeft="35.8142824056196,72.7941185908334" />
+        <NodeLayout
+          Size="133.6,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\MarriedMen"
+          TopLeft="61.6428541650577,310.958822113749" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\Conditional Split"
+          TopLeft="287.928572100036,214.864704543909" />
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+          TopLeft="227.01428240562,93.5941185908334">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="89.6000040190561,-10.3529427465684"
+              Start="0,0"
+              End="82.1000040190561,-10.3529427465684">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="40.8000020095281,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="40.8000020095281,0"
+                    Point2="44.8000020095281,0"
+                    Point3="44.8000020095281,-4" />
+                  <mssgle:LineSegment
+                    End="44.8000020095281,-6.3529427465684" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.8000020095281,-6.3529427465684"
+                    Point2="44.8000020095281,-10.3529427465684"
+                    Point3="48.8000020095281,-10.3529427465684" />
+                  <mssgle:LineSegment
+                    End="82.1000040190561,-10.3529427465684" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output1]"
+          TopLeft="518.842860432061,109.594115673712">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-153.714288332025,105.270588870197"
+              Start="0,0"
+              End="-153.714288332025,97.7705888701969">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.6352944350985" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.6352944350985"
+                    Point2="0,52.6352944350985"
+                    Point3="-4,52.6352944350985" />
+                  <mssgle:LineSegment
+                    End="-149.714288332025,52.6352944350985" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-149.714288332025,52.6352944350985"
+                    Point2="-153.714288332025,52.6352944350985"
+                    Point3="-153.714288332025,56.6352944350985" />
+                  <mssgle:LineSegment
+                    End="-153.714288332025,97.7705888701969" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Derived Column Output]"
+          TopLeft="418.214286424676,86.0176457589883">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="46.6285740073848,0"
+              Start="0,0"
+              End="39.1285740073848,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="39.1285740073848,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Case 1]"
+          TopLeft="328.528572100036,256.464704543909">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-200.085717934978,54.4941175698408"
+              Start="0,0"
+              End="-200.085717934978,46.9941175698408">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.7815040181285" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.7815040181285"
+                    Point2="0,18.7815040181285"
+                    Point3="-4,18.7815040181285" />
+                  <mssgle:LineSegment
+                    End="-196.085717934978,18.7815040181285" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-196.085717934978,18.7815040181285"
+                    Point2="-200.085717934978,18.7815040181285"
+                    Point3="-200.085717934978,22.7815040181285" />
+                  <mssgle:LineSegment
+                    End="-200.085717934978,46.9941175698408" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-115.260944904989,23.7815040181285,30.436171875,9.5537109375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\MarriedWomen"
+          TopLeft="263.428575914733,341.835298664925" />
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Case 2]"
+          TopLeft="365.128572100036,256.464704543909">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-26.8999961853027,85.370594121016"
+              Start="0,0"
+              End="-26.8999961853027,77.870594121016">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.685297060508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.685297060508"
+                    Point2="0,42.685297060508"
+                    Point3="-4,42.685297060508" />
+                  <mssgle:LineSegment
+                    End="-22.8999961853027,42.685297060508" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.8999961853027,42.685297060508"
+                    Point2="-26.8999961853027,42.685297060508"
+                    Point3="-26.8999961853027,46.685297060508" />
+                  <mssgle:LineSegment
+                    End="-26.8999961853027,77.870594121016" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-28.8536309051513,47.685297060508,30.807265625,9.5732421875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\SingleMen"
+          TopLeft="462.285722158393,340.564710378152" />
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Case 3]"
+          TopLeft="401.728572100036,256.464704543909">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="123.757150058357,84.1000058342433"
+              Start="0,0"
+              End="123.757150058357,76.6000058342433">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.9852312128207" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.9852312128207"
+                    Point2="0,28.9852312128207"
+                    Point3="4,28.9852312128207" />
+                  <mssgle:LineSegment
+                    End="119.757150058357,28.9852312128207" />
+                  <mssgle:CubicBezierSegment
+                    Point1="119.757150058357,28.9852312128207"
+                    Point2="123.757150058357,28.9852312128207"
+                    Point3="123.757150058357,32.9852312128207" />
+                  <mssgle:LineSegment
+                    End="123.757150058357,76.6000058342433" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="46.5384187791786,33.9852312128207,30.6803125,9.5732421875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="142.4,41.6"
+          Id="Package\Procesar\Tarea Flujo de datos\SingleWomen"
+          TopLeft="589.142867175901,282.729415359629" />
+        <EdgeLayout
+          Id="Package\Procesar\Tarea Flujo de datos.Paths[Case 4]"
+          TopLeft="409.048572100036,256.464704543909">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="251.294295075865,26.2647108157205"
+              Start="0,0"
+              End="251.294295075865,18.7647108157205">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,3.91174489452552" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,3.91174489452552"
+                    Point2="0,7.91174489452552"
+                    Point3="4,7.91174489452552" />
+                  <mssgle:LineSegment
+                    End="247.294295075865,7.91174489452552" />
+                  <mssgle:CubicBezierSegment
+                    Point1="247.294295075865,7.91174489452552"
+                    Point2="251.294295075865,7.91174489452552"
+                    Point3="251.294295075865,11.9117448945255" />
+                  <mssgle:LineSegment
+                    End="251.294295075865,18.7647108157205" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="110.148299881682,12.9117448945255,30.9976953125,9.5537109375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Procesar\Tarea Flujo de datos\MarriedMen">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Procesar\Tarea Flujo de datos\MarriedWomen">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Procesar\Tarea Flujo de datos\SingleMen">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Procesar\Tarea Flujo de datos\SingleWomen">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
